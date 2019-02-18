@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OsbondMerchant</string>
+    <string name="runtime_permissions_txt">Please enable requested service</string>
+</resources>

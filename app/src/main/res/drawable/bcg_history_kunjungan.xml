@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/histori_kunjungan_grey" android:state_pressed="false" />
+    <item android:drawable="@drawable/histori_kunjungan" android:state_pressed="true" />
+</selector>

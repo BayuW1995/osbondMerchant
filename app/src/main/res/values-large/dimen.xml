@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_logo_login">250dp</dimen>
+    <dimen name="text_size_lets_join_us">25sp</dimen>
+    <dimen name="widthBtnLogin">187.5dp</dimen>
+    <dimen name="heightBtnLogin">62.5dp</dimen>
+    <dimen name="textBtnLogin">25dp</dimen>
+    <dimen name="gambarMenuUtama">87.5dp</dimen>
+    <dimen name="textMenuUtama">17.5sp</dimen>
+    <dimen name="textLogin">25dp</dimen>
+
+    //total penjualan
+    <dimen name="text_size_judul_total_penjualan">25sp</dimen>
+    <dimen name="text_size_total_penjualan">43.75sp</dimen>
+
+    //pop up penjualan midtrans
+    <dimen name="width_popup_beli_token_midtrans">312.5dp</dimen>
+    <dimen name="height_popup_beli_token_midtrans">550dp</dimen>
+    <dimen name="text_size_judul_popup_beli_token_midtrans">25dp</dimen>
+    <dimen name="text_size_pilih_paket_popup_beli_token_midtrans">16.25sp</dimen>
+    <dimen name="height_isian_paket_popup_beli_token_midtrans">225dp</dimen>
+    <dimen name="text_size_pilih_cabang_popup_beli_token_midtrans">16.25sp</dimen>
+    <dimen name="text_size_jumlah_popup_beli_token_midtrans">16.25sp</dimen>
+    <dimen name="text_size_isian_jumlah_popup_beli_token_midtrans">22.5sp</dimen>
+    <dimen name="text_size_button_beli_popup_beli_token_midtrans">17.5sp</dimen>
+
+    //recyclerView pop up penjualan midtrans
+    <dimen name="image_rv_popup_beli_token_midtrans">62.5dp</dimen>
+    <dimen name="text_size_judul_paket">17.5sp</dimen>
+    <dimen name="height_keterangan_paket">62.5dp</dimen>
+    <dimen name="text_size_keterangan_paket">12.5sp</dimen>
+    <dimen name="text_size_harga_paket">17.5sp</dimen>
+
+    //popup penjualan via email
+    <dimen name="width_popup_penjualan_via_email">312.5dp</dimen>
+    <dimen name="height_popup_penjualan_via_email">687.5dp</dimen>
+    <dimen name="text_size_judul_popup_penjualan_via_email">25sp</dimen>
+    <dimen name="text_size_pilih_paket_popup_penjualan_via_email">16.25sp</dimen>
+    <dimen name="height_isian_paket_popup_penjualan_via_email">225dp</dimen>
+    <dimen name="text_size_pilih_cabang_popup_penjualan_via_email">16.25sp</dimen>
+    <dimen name="text_size_kepada_popup_penjualan_via_email">16.25sp</dimen>
+    <dimen name="text_size_isian_kepada_popup_penjualan_via_email">18.75dp</dimen>
+    <dimen name="text_size_jumlah_popup_penjualan_via_email">16.25sp</dimen>
+    <dimen name="text_size_isian_jumlah_popup_penjualan_via_email">12.5sp</dimen>
+    <dimen name="text_size_button_beli_popup_penjualan_via_email">17.5sp</dimen>
+
+    //popup verifikasi
+    <dimen name="width_popup_verifikasi">375dp</dimen>
+    <dimen name="height_popup_verifikasi">437.5dp</dimen>
+    <dimen name="text_size_judul_popup_verifikasi">25sp</dimen>
+    <dimen name="text_size_judul_isi_popup_verifikasi">17.5sp</dimen>
+    <dimen name="text_size_keterangan_isi_popup_verifikasi">15sp</dimen>
+    <dimen name="text_size_harga_isi_popup_verifikasi">17.5sp</dimen>
+    <dimen name="text_size_jumlah_isi_popup_verifikasi">15sp</dimen>
+    <dimen name="text_size_subtotal_isi_popup_verifikasi">17.5sp</dimen>
+    <dimen name="text_size_isi_subtotal_isi_popup_verifikasi">25sp</dimen>
+    <dimen name="text_size_btnLanjut_isi_popup_verifikasi">17.5sp</dimen>
+
+    //popup pin
+    <dimen name="width_popup_pin">312.5dp</dimen>
+    <dimen name="height_popup_pin">250dp</dimen>
+    <dimen name="text_size_judul_popup_pin">25dp</dimen>
+    <dimen name="text_size_isian_popup_pin">17.5sp</dimen>
+    <dimen name="width_tombol_popup_pin">87.5dp</dimen>
+    <dimen name="height_tombol_popup_pin">37.5dp</dimen>
+    <dimen name="text_size_tombol_popup_pin">17.5sp</dimen>
+</resources>

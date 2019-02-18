@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutPopUp"
+        android:layout_width="@dimen/width_popup_pin"
+        android:layout_height="@dimen/height_popup_pin"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background_popup_setting_kupon"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:background="@drawable/background_layoutkuning_setting_kupon"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.95"
+                android:background="@drawable/background_layoutmerah_setting_kupon">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Masukkan PIN"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/text_size_judul_popup_pin"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.5"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:id="@+id/inputanPIN"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2.5"
+                        android:background="@drawable/bcg_editteks_pin"
+                        android:inputType="numberPassword"
+                        android:singleLine="true"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/text_size_isian_popup_pin" />
+
+                    <!--<Spinner
+                        android:id="@+id/dropdownJumlahJamPemakaian"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content" />-->
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5">
+
+                    <RelativeLayout
+                        android:id="@+id/btnSavePin"
+                        android:layout_width="@dimen/width_tombol_popup_pin"
+                        android:layout_height="@dimen/height_tombol_popup_pin"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/background_tombol_ok_popup_setting_kupon"
+                        android:clickable="true">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Save"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/text_size_tombol_popup_pin" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/btnCancelPin"
+                        android:layout_width="@dimen/width_tombol_popup_pin"
+                        android:layout_height="@dimen/height_tombol_popup_pin"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/btnSavePin"
+                        android:background="@drawable/background_tombol_cancel_popup_setting_kupon"
+                        android:clickable="true">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Cancel"
+                            android:textSize="@dimen/text_size_tombol_popup_pin" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
